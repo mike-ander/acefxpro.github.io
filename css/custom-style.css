@@ -1,0 +1,175 @@
+.btn {
+  border: none !important; }
+
+#mainMenu nav > ul > li.hover-active > a, #mainMenu nav > ul > li.hover-active > span, #mainMenu nav > ul > li.current > a, #mainMenu nav > ul > li.current > span, #mainMenu nav > ul > li:hover > a, #mainMenu nav > ul > li:hover > span, #mainMenu nav > ul > li:focus > a, #mainMenu nav > ul > li:focus > span {
+  color: #6a00c6; }
+
+#mainMenu nav > ul > li .dropdown-menu > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li > a:active, #mainMenu nav > ul > li .dropdown-menu > li > span:focus, #mainMenu nav > ul > li .dropdown-menu > li > span:hover, #mainMenu nav > ul > li .dropdown-menu > li > span:active, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:focus, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:hover, #mainMenu nav > ul > li .dropdown-menu > li [class*="col-"] > ul > li > a:active {
+  color: #6a00c6; }
+
+.btn-gradient {
+  display: inline-block;
+  border: none !important;
+  background: #4b2868;
+  background: linear-gradient(90deg, #4b2868 0%, #662778 35%, #9c479c 100%);
+  transition: all 2s ease-out;
+  border-radius: 30px;
+  padding: 12px 40px;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff !important;
+  margin: 1px 1px 0;
+  cursor: pointer; }
+
+.btn-solid {
+  background: #d65ca0;
+  background: linear-gradient(90deg, #9c479c 0%, #9c479c 35%, #9c479c 100%); }
+
+button.btn:hover, button.btn-gradient:hover, button.btn:focus, button.btn:not(:disabled):not(.disabled):active, button.btn:not(:disabled):not(.disabled).active, .btn:not(.close):not(.mfp-close):hover, .btn:not(.close):not(.mfp-close):focus, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled):active, .btn:not(.close):not(.mfp-close):not(:disabled):not(.disabled).active, a.btn:not([href]):not([tabindex]):hover, a.btn:not([href]):not([tabindex]):focus, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled):active, a.btn:not([href]):not([tabindex]):not(:disabled):not(.disabled).active {
+  background: #4b2868;
+  background: linear-gradient(90deg, #9c479c 0%, #662778 35%, #4b2868 100%);
+  color: #ffffff !important;
+  text-decoration: none; }
+
+.inspiro-slider .slide .slide-captions h1 {
+  font-size: 60px; }
+
+.flickity-button:hover {
+  background-color: #6a00c6; }
+
+.page-menu nav > ul > li:hover > a, .page-menu nav > ul > li.active > a {
+  color: #6a00c6; }
+
+a:not(.btn):not(.badge):hover, a:not(.btn):not(.badge):focus, a:not(.btn):not(.badge):active {
+  color: #6a00c6; }
+
+button.btn, .btn:not(.close):not(.mfp-close), a.btn:not([href]):not([tabindex]) {
+  background-color: #6a00c6;
+  border-color: #6a00c6; }
+
+.pricing-table.colored .plan-header {
+  background-color: #9c479c;
+  border-color: rgba(0, 0, 0, 0.05);
+  color: #fff; }
+
+.pricing-table.colored .plan.featured .plan-header {
+  background: #4b2868; }
+
+section#section1 {
+  background: #4b2868;
+  background: linear-gradient(90deg, #4b2868 0%, #662778 35%, #9c479c 100%); }
+
+.text-box.hover-effect a img {
+  margin: 90px 0 20px; }
+
+.text-box h3 {
+  color: #ffffff !important; }
+
+.text-box:hover {
+  background: transparent; }
+
+.text-box:hover h3 {
+  color: #ffffff !important; }
+
+.text-box:hover p {
+  color: #ffffff !important; }
+
+.icon-field .icon i {
+  color: #ffffff !important; }
+
+.icon-field h4 {
+  color: #ffffff !important; }
+
+.bg-overlay[data-style="6"] {
+  background: radial-gradient(circle at left top, #d65ca0 38%, #9c479c 66%);
+  opacity: .9; }
+
+.icon-img {
+  margin-top: 50px; }
+
+.icon-box.text-center h5 {
+  margin-top: 10px; }
+
+.shape-section .text-box {
+  padding: 15px; }
+
+.shape-section .text-box:hover i {
+  color: #ffffff; }
+
+.facts {
+  padding-top: 20px; }
+
+.facts .text-box {
+  padding: 15px; }
+
+.facts .text-box h4 {
+  font-size: 1.2em;
+  font-weight: normal; }
+
+.trading-image img {
+  max-width: 100%;
+  max-height: unset; }
+
+.trading-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover; }
+
+.shape-section h4 {
+  color: #ffffff;
+  font-weight: 500; }
+
+.shape-section .container, .shape-section .container-wide {
+  margin-top: 30px; }
+
+.section-heading {
+  font-size: 45px;
+  font-weight: 600;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 45px;
+  position: relative;
+  padding-bottom: 15px;
+  color: #300454; }
+
+.section-heading:before {
+  width: 100px;
+  height: 1px;
+  content: "";
+  background-color: #662778;
+  position: absolute;
+  left: 15px;
+  bottom: 5px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s; }
+
+.section-heading.text-center:before {
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.section-heading:hover:before {
+  width: 150px; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.shape-section .text-box.hover-effect img {
+  transition: all 0.4s ease 0s;
+  max-width: 50px;
+  margin: 70px 0 15px; }
+
+.shape-section .text-box.hover-effect:hover img {
+  margin: 50px 0 6px 0; }
+
+/*# sourceMappingURL=custom-style.css.map */
