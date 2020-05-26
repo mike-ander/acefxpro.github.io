@@ -6,7 +6,7 @@ Carousels
 }
 
 .flickity-slider>div>img,
-.carousel .polo-carousel-item img {
+.carousel .ace-carousel-item img {
     width: 100%;
 }
 
@@ -14,7 +14,7 @@ Carousels
 .carousel.custom-height {
 
     .flickity-slider>div>img,
-    .carousel .polo-carousel-item img {
+    .carousel .ace-carousel-item img {
         height: 100%;
         width: auto;
     }
@@ -237,7 +237,7 @@ Carousels
     }
 }
 
-.polo-carousel-item {
+.ace-carousel-item {
     &.is-selected {
         z-index: 2;
     }
@@ -410,7 +410,7 @@ Carousel: Dots
     .owl-stage-outer {
         overflow: unset !important;
 
-        .polo-carousel-item {
+        .ace-carousel-item {
             opacity: .3;
             transition: opacity 400ms ease;
 

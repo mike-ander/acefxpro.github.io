@@ -1,22 +1,5 @@
 @charset "UTF-8";
-/*  Mixins */
-/*  Fonts */
-/* --------------------------------------------------------------- 
-   Google Fonts
------------------------------------------------------------------*/
-/*@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,500,600,700,800|Nunito:300,400,600,700,800");*/
-/*  Base */
-/***********************************************************************
-**														              **
-**         POLO Html5 Template		   								  **
-**         Author: INSPIRO MEDIA								      **
-**		   URL: //www.inspiro-media.com						  **
-**	       													              **
-************************************************************************/
-/*  Content & Layout */
-/* ----------------------------------------------------------------
-    BODY
------------------------------------------------------------------*/
+
 html {
   overflow-x: hidden;
 }
@@ -4289,7 +4272,7 @@ h6.font-parisienne {
   height: 600px;
   width: 100%;
 }
-.boxed-slider .polo-carousel-item {
+.boxed-slider .ace-carousel-item {
   height: 600px;
 }
 .boxed-slider .owl-bg-img {
@@ -4298,7 +4281,7 @@ h6.font-parisienne {
   background-size: cover;
 }
 
-.polo-carousel-item img {
+.ace-carousel-item img {
   height: 100%;
 }
 
@@ -7524,14 +7507,14 @@ NEWS MARKETING BOX
   width: 100%;
 }
 
-.news-ticker-content .polo-carousel-item {
+.news-ticker-content .ace-carousel-item {
   margin-right: 40px;
 }
-.news-ticker-content .polo-carousel-item a {
+.news-ticker-content .ace-carousel-item a {
   white-space: nowrap;
   padding-right: 40px !important;
 }
-.news-ticker-content .polo-carousel-item:before {
+.news-ticker-content .ace-carousel-item:before {
   color: #d82731;
   content: "\e9be";
   font-family: inspiro-icons !important;
@@ -14369,14 +14352,14 @@ Carousels
 }
 
 .flickity-slider > div > img,
-.carousel .polo-carousel-item img {
+.carousel .ace-carousel-item img {
   width: 100%;
 }
 
 .carousel[data-auto-width="true"] .flickity-slider > div > img,
-.carousel[data-auto-width="true"] .carousel .polo-carousel-item img,
+.carousel[data-auto-width="true"] .carousel .ace-carousel-item img,
 .carousel.custom-height .flickity-slider > div > img,
-.carousel.custom-height .carousel .polo-carousel-item img {
+.carousel.custom-height .carousel .ace-carousel-item img {
   height: 100%;
   width: auto;
 }
@@ -14564,7 +14547,7 @@ Carousels
   padding-bottom: 0;
 }
 
-.polo-carousel-item.is-selected {
+.ace-carousel-item.is-selected {
   z-index: 2;
 }
 
@@ -14703,11 +14686,11 @@ Carousel: Dots
 .carousel-promotion .owl-stage-outer {
   overflow: unset !important;
 }
-.carousel-promotion .owl-stage-outer .polo-carousel-item {
+.carousel-promotion .owl-stage-outer .ace-carousel-item {
   opacity: .3;
   transition: opacity 400ms ease;
 }
-.carousel-promotion .owl-stage-outer .polo-carousel-item.active {
+.carousel-promotion .owl-stage-outer .ace-carousel-item.active {
   opacity: 1;
 }
 
@@ -17401,8 +17384,8 @@ a[data-toggle] {
   cursor: pointer;
 }
 
-.client-carousel .polo-carousel-item img,
-.clients-logo .polo-carousel-item img {
+.client-carousel .ace-carousel-item img,
+.clients-logo .ace-carousel-item img {
   padding: 20px;
 }
 
@@ -17502,7 +17485,7 @@ body.breakpoint-xs .grid li {
   width: 50%;
 }
 
-.client-logos .polo-carousel-item {
+.client-logos .ace-carousel-item {
   padding: 20px 30px;
 }
 

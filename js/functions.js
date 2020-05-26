@@ -1,11 +1,4 @@
-//----------------------------------------------------/
-//
-//      POLO - HTML5 Template
-//      Author: INSPIRO - Ardian Berisha
-//      Version: v5.9.9
-//      Update: March 23, 2020
-//
-//----------------------------------------------------/
+
 //INSPIRO Global var
 var INSPIRO = {},
   $ = jQuery.noConflict();
@@ -935,27 +928,27 @@ var INSPIRO = {},
           }
           getCarouselColumns();
           var itemWidth;
-          elem.find("> *").wrap('<div class="polo-carousel-item">');
+          elem.find("> *").wrap('<div class="ace-carousel-item">');
           if (elem.hasClass("custom-height")) {
             elem.options.setGallerySize = false;
             INSPIRO.core.customHeight(elem);
-            INSPIRO.core.customHeight(elem.find(".polo-carousel-item"));
+            INSPIRO.core.customHeight(elem.find(".ace-carousel-item"));
             var carouselCustomHeightStatus = true;
           }
           if (Number(elem.options.items) !== 1) {
             if (elem.options.autoWidth || carouselCustomHeightStatus) {
-              elem.find(".polo-carousel-item").css({
+              elem.find(".ace-carousel-item").css({
                 "padding-right": elem.options.margin + "px"
               })
             } else {
               itemWidth = (elem.options.containerWidth + Number(elem.options.margin)) / setResponsiveColumns;
-              elem.find(".polo-carousel-item").css({
+              elem.find(".ace-carousel-item").css({
                 "width": itemWidth,
                 "padding-right": elem.options.margin + "px"
               })
             }
           } else {
-            elem.find(".polo-carousel-item").css({
+            elem.find(".ace-carousel-item").css({
               "width": "100%",
               "padding-right": "0 !important;"
             })
@@ -1008,18 +1001,18 @@ var INSPIRO = {},
                 getCarouselColumns();
                 itemWidth = (elem.width() + Number(elem.options.margin)) / setResponsiveColumns;
                 if (elem.options.autoWidth || carouselCustomHeightStatus) {
-                  elem.find(".polo-carousel-item").css({
+                  elem.find(".ace-carousel-item").css({
                     "padding-right": elem.options.margin + "px"
                   })
                 } else {
                   if (!elem.hasClass("custom-height")) {
-                    elem.find(".polo-carousel-item").css({
+                    elem.find(".ace-carousel-item").css({
                       "width": itemWidth,
                       "padding-right": elem.options.margin + "px"
                     })
                   } else {
-                    INSPIRO.core.customHeight(elem.find(".polo-carousel-item"));
-                    elem.find(".polo-carousel-item").css({
+                    INSPIRO.core.customHeight(elem.find(".ace-carousel-item"));
+                    elem.find(".ace-carousel-item").css({
                       "width": itemWidth,
                       "padding-right": elem.options.margin + "px"
                     })
