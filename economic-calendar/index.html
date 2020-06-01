@@ -8,14 +8,14 @@
     <link rel="icon" type="image/png" href="../images/favicon.png">   
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>ACEFX Pro - Account Types</title>
+    <title>ACEFX Pro - Economic Calendar</title>
     <!-- Stylesheets & Fonts -->
     <link href="../css/plugins.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/custom-style.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#GFG_scrollspy" data-offset="1">
     <!-- Body Inner -->
     <div class="body-inner">
         <!-- Header -->
@@ -70,14 +70,14 @@
                                         <ul class="dropdown-menu">
                                             <li><a href="../products">Products</a></li>
                                             <li><a href="../platform">Platform</a></li>
-                                            <li><a class="active" href="#">Account Types</a></li>
+                                            <li><a href="account-types">Account Types</a></li>
                                             <li><a href="../deposit-and-withdrawals">Deposit &amp; Withdrawals</a></li>
                                             <li><a href="../promotions">Promotions</a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown"> <a href="#">Analysis & Education</a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="../economic-calendar">Economic Calendar</a></li>
+                                            <li><a class="active" href="#">Economic Calendar</a></li>
                                             <li><a href="../market-news">Market News</a></li>
                                             <li><a href="../risk-management">Risk Management</a></li>
                                             <li><a href="../glossary">Glossary</a></li>
@@ -124,13 +124,13 @@
         <section id="page-title" class="text-light" data-bg-parallax="../images/parallax/inner-banner-def.jpg">
             <div class="container">
                 <div class="page-title">
-                    <h1>Trading</h1>
+                    <h1>Analysis &amp; Education</h1>
                 </div>
                 <div class="breadcrumb">
                     <ul>
                         <li><a href="../">Home</a>
                         </li>
-                        <li class="active"><a href="#">Platform</a>
+                        <li class="active"><a href="#">Economic Calendar</a>
                         </li>
                     </ul>
                 </div>
@@ -139,81 +139,46 @@
         <!-- end: Page title -->
         <section>
             <div class="container">
-                <div class="heading-text heading-section text-center">
-                    <h2 class="wow fadeInDown" data-wow-delay="0.2s">THREE ACCOUNTS. ENDLESS POSSIBLITIES!</h2>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="heading-text heading-section text-center">
+                      <h2 class="wow fadeInDown" data-wow-delay="0.2s">Economic Calendar</h2>
+                  </div>
                 </div>
-                <div class="acc-type-padding">
-                <div class="row pricing-table">
+                <div class="col-md-12">
+                  <div class="economic-calendar-wrapper">
+                  <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                      <div class="tradingview-widget-container__widget"></div>
+                      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/currencies/economic-calendar/" rel="noopener" target="_blank"><span class="blue-text">Economic Calendar</span></a> by TradingView</div>
 
-                    <div class="col-lg-4 col-md-12 col-12 wow fadeInDown" data-wow-delay="0.2s">
-                        <div class="plan">
-                            <div class="plan-header">
-                                <h4>Standard</h4>
-                                <p class="text-muted">Deposit</p>
-                                <div class="plan-price"><sup>$</sup>200</div>
-                            </div>
-                            <div class="plan-list">
-                                <ul>
-                                    <li><i class="fas fa-globe-americas"></i>Spreads from: 1 PIPS</li>
-                                    <li><i class="fa fa-thumbs-up"></i>Leverage up to 1:500</li>
-                                    <li><i class="fa fa-signal"></i>Platforms: MT5, Mobile MT5</li>
-                                    <li><i class="fa fa-user"></i>Instruments: FX</li>
-                                </ul>
-                                <div class="plan-button">
-                                    <a href="#" class="btn btn-light btn-rounded btn-gradient">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-events.js" async>
+                    {
+                    "colorTheme": "light",
+                    "isTransparent": false,
+                    "width": "100%",
+                    "height": "100%",
+                    "locale": "en",
+                    "importanceFilter": "-1,0,1"
+                  }
+                    </script>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-12 wow fadeInDown" data-wow-delay="0.4s">
-                        <div class="plan featured">
-                            <div class="plan-header">
-                                <h4>Deluxe Plan</h4>
-                                <p class="text-muted">Deposit</p>
-                                <div class="plan-price"><sup>$</sup>2,000</div>
-                            </div>
-                            <div class="plan-list">
-                                <ul>
-                                    <li><i class="fas fa-globe-americas"></i>Spreads from: 0.2 to 0.8 PIPS</li>
-                                    <li><i class="fa fa-thumbs-up"></i>Unlimited Storage</li>
-                                    <li><i class="fa fa-signal"></i>Leverage up to 1: 100</li>
-                                    <li><i class="fa fa-user"></i>Platforms: MT5, Mobile MT5</li>
-                                    <li><i class="fa fa-star"></i>Instruments: FX, Metals, Indices, Crypto</li>
-                                </ul>
-                                <div class="plan-button">
-                                    <a href="#" class="btn btn-rounded btn-gradient">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-12 wow fadeInDown" data-wow-delay="0.6s">
-                        <div class="plan">
-                            <div class="plan-header">
-                                <h4>Ultimate</h4>
-                                <p class="text-muted">Deposit</p>
-                                <div class="plan-price"><sup>$</sup>5,000</div>
-                            </div>
-                            <div class="plan-list">
-                                <ul>
-                                    <li><i class="fas fa-globe-americas"></i>Spreads from: 0.1 PIPS</li>
-                                    <li><i class="fa fa-thumbs-up"></i>Leverage up to 1: 100</li>
-                                    <li><i class="fa fa-signal"></i>Platforms: MT5, Mobile MT5</li>
-                                    <li><i class="fa fa-user"></i>Instruments: FX, Metals, Indices, Crypto</li>
-                                </ul>
-                                <div class="plan-button">
-                                    <a href="#" class="btn btn-light btn-rounded btn-gradient">Buy Now</a>
-                                </div>
-                            </div>
-                        </div>
+                  </div>
+<!-- TradingView Widget END --> 
+                </div>
+              </div>
+                
+                <!-- <div class="row">
+                    <div class="col-md-12">
+                        
                     </div>
                 </div>
-                   </div>
-                   <div class="button-wrapper">
+                <div class="button-wrapper">
                     <a href="#" class="btn btn-rounded btn-gradient long-button">START TRADING</a>
-                </div>
+                </div> -->
+                
             </div>
         </section>
-        
         
        
         <!-- Footer -->
