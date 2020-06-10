@@ -1110,6 +1110,7 @@ var INSPIRO = {},
     },
 
     formAjaxProcessing: function () {
+      return;
       var $ajaxForm = $(".widget-contact-form:not(.custom-js), .ajax-form:not(.custom-js)")
       if ($ajaxForm.length > 0) {
         $ajaxForm.each(function () {
@@ -2401,6 +2402,7 @@ var INSPIRO = {},
       }
     },
     notification: function ($title, $message, $type, $element, $delay, $placement, $animateEnter, $animateExit, $backgroundImage, $timeout) {
+      
       var $element,
         $elementContainer,
         $animateEnter = $animateEnter || "fadeInDown",
