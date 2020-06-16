@@ -549,7 +549,11 @@ section.scroll-section {
     position: relative; } }
 @media (max-width: 768px) {
   .scolllist {
-    display: none; } }
+    display: none; }
+  .removeForMobile{
+    display: none!important;
+  }
+  }
 ul.tnc {
   list-style: none; }
 
