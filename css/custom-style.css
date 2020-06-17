@@ -699,7 +699,8 @@ box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1
     transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    -webkit-t
+    ransform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -726,4 +727,21 @@ box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1
 
 #header[data-transparent="true"] + #page-title {
   padding: 300px 0 240px 0;
+}
+
+.about-boxes{
+  padding:25px;
+  text-align: center;
+  margin-top:40px;
+}
+.about-icons{
+  width:60px;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+.about-icons img{
+  max-width:100%;
+}
+.about-boxes p{
+  color:#808080;
 }
